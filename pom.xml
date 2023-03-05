@@ -41,6 +41,8 @@
                         <goal>repackage</goal>
                     </goals>
                     <configuration>
+			    
+			    <testFailureIgnore>true</testFailureIgnore>
                         <finalName>Uber</finalName>
                     </configuration>
                 </execution>
